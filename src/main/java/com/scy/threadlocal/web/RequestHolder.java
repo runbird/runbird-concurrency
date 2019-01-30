@@ -1,4 +1,4 @@
-package com.scy.threadlocal;
+package com.scy.threadlocal.web;
 
 /**
  * 类名： RequstHolder <br>

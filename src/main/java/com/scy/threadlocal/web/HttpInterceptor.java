@@ -1,4 +1,4 @@
-package com.scy.threadlocal;
+package com.scy.threadlocal.web;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;

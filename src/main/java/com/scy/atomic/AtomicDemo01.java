@@ -47,7 +47,6 @@ public class AtomicDemo01 {
         downLatch.await();
         log.info("success:{}",count.get());
         executorService.shutdown();
-
     }
 
     private static void count() {
