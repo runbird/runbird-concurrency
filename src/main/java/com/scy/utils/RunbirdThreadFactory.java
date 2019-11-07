@@ -40,7 +40,7 @@ public class RunbirdThreadFactory implements ThreadFactory {
     }
 
     public static void main(String[] args) {
-        RunbirdThreadFactory threadFactory = new RunbirdThreadFactory("CUPDATA");
+        RunbirdThreadFactory threadFactory = new RunbirdThreadFactory("runbird");
         Task task = new Task();
         for (int i = 0; i < 100000; i++) {
             threadFactory.newThread(task).start();
