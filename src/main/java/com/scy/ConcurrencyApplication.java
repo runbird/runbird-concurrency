@@ -1,6 +1,6 @@
 package com.scy;
 
-import com.scy.threadlocal.web.HttpInterceptor;
+import com.scy.juc.threadlocal.web.HttpInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;

@@ -1,4 +1,4 @@
-package com.scy.blockquene;
+package com.scy.basicdemo.blockquene;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;

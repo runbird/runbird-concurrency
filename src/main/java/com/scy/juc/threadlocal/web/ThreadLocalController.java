@@ -1,4 +1,4 @@
-package com.scy.threadlocal.web;
+package com.scy.juc.threadlocal.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,9 +1,9 @@
-package com.scy.threadlocal.demo;
+package com.scy.juc.threadlocal.demo;
 
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * 类名： InheritableThreadLocalDemo <br>
+ * 类名： ThreadDemo3 <br>
  * 描述：TODO <br>
  * 创建日期： 2019/1/31 <br>
  *
@@ -11,9 +11,8 @@ import lombok.extern.slf4j.Slf4j;
  * @version V1.0
  */
 @Slf4j
-public class InheritableThreadLocalDemo {
-
-    private static final ThreadLocal<String> userId = new InheritableThreadLocal<>();
+public class ThreadLocalDemo3 {
+    private static final ThreadLocal<String> userId = new ThreadLocal<>();
 
     public static void main(String[] args) throws InterruptedException {
         userId.set("id in main thread");
