@@ -1,4 +1,4 @@
-package com.scy.atomic;
+package com.scy.juc.atomic;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
