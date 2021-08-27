@@ -1,4 +1,4 @@
-package com.scy.juc.aqs;
+package com.scy.demo.aqs;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;

@@ -1,4 +1,4 @@
-package com.scy.juc.threadlocal;
+package com.scy.demo.threadlocal;
 
 import lombok.extern.slf4j.Slf4j;
 

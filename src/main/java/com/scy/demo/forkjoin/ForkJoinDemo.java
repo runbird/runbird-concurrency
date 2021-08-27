@@ -1,4 +1,4 @@
-package com.scy.juc.forkjoin;
+package com.scy.demo.forkjoin;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;

@@ -1,4 +1,4 @@
-package com.scy.juc.atomic;
+package com.scy.demo.atomic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

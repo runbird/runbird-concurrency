@@ -1,4 +1,4 @@
-package com.scy.juc.concurrent;
+package com.scy.demo.concurrent;
 
 import com.scy.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
