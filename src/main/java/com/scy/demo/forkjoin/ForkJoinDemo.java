@@ -40,10 +40,13 @@ class MyTask extends RecursiveTask<Long> {
             }
         }else {
             long mid = begin + ((end - begin) >> 1);
+
             MyTask left = new MyTask(begin, mid);
-            MyTask right = new MyTask(mid, end);
             ForkJoinTask<Long> lr = left.fork();
+
+            MyTask right = new MyTask(mid, end);
             ForkJoinTask<Long> rr = right.fork();
+
             sum += lr.join();
             sum += rr.join();
         }
